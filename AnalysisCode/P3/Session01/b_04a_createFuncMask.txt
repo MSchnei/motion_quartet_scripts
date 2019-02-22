@@ -1,0 +1,18 @@
+The idea is to prepare a quick brain mask for the functional images that can be
+used by spm to consider only regions inside the brain to optimize the motion
+correction cost function.
+
+This seems to provide (visually) better motion correction compared to the outcome
+when no mask is used.
+
+The brain mask may include the cerebellum or not, not a big difference was found
+for the two options.
+
+The following steps were followed to obtain the brain mask:
+
+* Create the mean of the functional images of the first run of the respective
+  session
+* Use itksnap on the mean of the functional images of the first run of the
+  respective session
+* Use bubble growing algorithm in combination with appropriate intensity
+  thresholding

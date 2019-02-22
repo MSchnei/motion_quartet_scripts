@@ -1,0 +1,14 @@
+The first step in the original pipeline was to create BrainVoyager *.fmr files
+from the dicom files.
+
+This step is obsolete here, since dicom files have already been converted by
+BrainVoyager and have been made available for download on zenodo:
+https://zenodo.org/record/1489227
+
+Data for download were shared in nifti format (not *.fmr file format).
+There are (at least) two possible ways to continue from here:
+1) BrainVoyager users can load the nifti data in BrainVoyager, which will
+internally convert the data to *.fmr (and *.stc) files and continue using the
+analysis pipeline provided here.
+2) Users of other software packages can use the provided nifti files together
+with the stimulus information in the *.tsv files to perform their own analyses.
