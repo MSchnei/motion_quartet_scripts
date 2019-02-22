@@ -1,0 +1,1 @@
+just create masks for the mean of the reference image using ITK_SNAP
