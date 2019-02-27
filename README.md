@@ -1,7 +1,7 @@
 # motion_quartet_scripts
 Stimulus and analysis scripts accompanying the manuscript "Columnar clusters in the human motion complex reflect consciously perceived motion axis"
 
-# motion_quartet_scripts
+# Overview
 
 This repository hosts code for the analysis of the following paper:
 
