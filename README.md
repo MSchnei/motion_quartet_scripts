@@ -13,7 +13,6 @@ More details on data and preprocessing can be found in the Supplementary Materia
 ## Download code and data
 The data is provided in BIDS format. Code and data can be downloaded by running:
 
-**download code and data**
 ```
 # specify path to parent folder
 prnt_path="/path/to/Downloads/"
